@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- IP actual de tu PC en la red de Uniminuto -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">10.51.200.231</domain> <!-- ✅ Tu IP real actual -->
+    </domain-config>
+
+    <!-- Otras IPs opcionales por si cambias a emulador o red local -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">192.168.1.6</domain>
+    </domain-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">10.0.2.2</domain>
+    </domain-config>
+</network-security-config>
+
